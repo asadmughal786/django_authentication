@@ -1,0 +1,29 @@
+.loginbutton
+{
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #f05c2f;
+    border: #f05c2f;
+}
+
+.loginbutton:hover
+{
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #eb977e;
+    border: #f05c2f;
+    transition: 0.9s;
+}
+
+.logininput
+{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.logininput:focus
+{
+    box-shadow: 1px 1px 5px 4px yellow;
+}

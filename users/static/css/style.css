@@ -1,0 +1,299 @@
+.img-width-control1
+{
+    width: 20%;
+}
+.img-width-control
+{
+    width: 60%;
+}
+
+.content-align
+{
+    text-align: right !important;
+}
+
+.button-login
+{
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+
+.button-login:hover
+{
+    background-color: rgb(129, 129, 129);
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(255, 255, 255);
+}
+
+.button-signup
+{
+    background-color: #f05c2f;
+    color: white;
+    border:1px solid #f05c2f;
+}
+
+.button-signup:hover
+{
+    background-color: #ffffff;
+    color: #f05c2f;
+    border:1px solid #f05c2f;
+}
+
+.bg-color-footer
+{
+    background-color: #062a4a;
+}
+
+.text-adjust
+{
+    font-size: 20px;
+    color: white;
+}
+
+.text-adjust:hover
+{
+    font-size: 20px;
+    color: #f05c2f;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.text-adjust-contactus
+{
+    color: white;
+    font-size: 35px;
+}
+
+.text-adjust-phone
+{
+    font-size: 20px;
+    color: #f05c2f;
+    
+}
+
+.contact-support
+{
+    background-color: #f05c2f;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* .input-style
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+
+.input-style:focus
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    box-shadow: none;
+} */
+
+.select-style
+{
+    border: none;
+    color: black;
+    font-weight: 600;
+
+}
+.select-style:focus
+{
+    box-shadow: none;
+    border: none;
+    color: black;
+    font-weight: 600;
+}
+
+.select-div-style
+{
+    padding-top: 7%;
+}
+
+.text-note
+{
+    font-size: 16px;
+}
+
+.profile-picture
+{
+    border: 2px solid green;
+  height: 30vh;
+  padding-top: 42%;
+}
+
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .btnn {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(49, 49, 49);
+    background-color: white;
+    /* padding: 8px 20px; */
+    border-radius: 8px;
+    font-size: 15px;
+    /* font-weight: bold; */
+    cursor: pointer;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+
+  .remove {
+    background: #f1f1f1;
+    td {
+      font-style: italic;
+    }
+  }
+  
+  .table>tbody>tr>td {
+    vertical-align: middle;
+  }
+  .input-group {
+    width: 100%;
+  }
+  
+  .editable {
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-shadow: none;
+    box-shadow: none;
+  }
+  .addBtn {
+    cursor: pointer;
+  }
+
+  h1 { text-align: center; margin-top: 50px; margin-bottom: 30px;}
+    h4 { margin-top: 30px;}
+.input-file { visibility: hidden; position: absolute;}
+.btn-info
+{
+    background-color: #585858;
+    border: #f05c2f;
+    border-top-left-radius: 0px ;
+    border-bottom-left-radius: 0px ;
+    padding-bottom: 8.5%;
+}
+
+.submitbutton
+{
+    background-color: #f05c2f;
+    border: #f05c2f ;
+}
+
+.submitbutton:hover
+{
+    background-color: #c72e00;
+    border: #e08467 ;
+}
+
+.imgwidth1
+{
+    width: 30%;
+}
+.textalign
+{
+    text-align: left;
+    word-spacing: 1px;
+    /* text-align: justify; */
+}
+
+.buttonstylethankyou
+{
+    background-color: #c72e00;
+    color: white;
+    border: #c72e00;
+}
+
+.buttonstylethankyou:hover
+{
+    background-color: #802003;
+    color: white;
+    border: #c72e00;
+}
+
+
+.carddesign
+{
+    border: 2px solid #f58c6c;
+    border-radius: 10px;
+    box-shadow: 1px 1px 11px 11px #c72e002c;
+}
+
+.buttonpadding
+{
+    /* padding-right: 19px !important;  */
+}
+
+.thankyou
+
+    {
+        font-family: 'Kaushan Script', cursive;
+      font-size:4em;
+      letter-spacing:3px;
+      color: #c72e00 ;
+      margin:0;
+      margin-bottom:20px;
+    }
+
+    .profilebuttonstyle
+    {
+        color: white;
+        background-color: #c72e00; 
+        border: #c72e00;
+    }
+    .profilebuttonstyle:hover
+    {
+        color: white;
+        background-color: #812306; 
+        border: #c72e00;
+    }
+    .btn-default:focus
+    {
+        box-shadow: none !important;
+    }
+
+    
+
+
+    
+
+
+@media screen and (max-width: 880px) {
+    .img-width-control
+    {
+        display: none;
+    }
+    .img-width-control1
+    {
+        display: none;
+    }
+    .content-align
+    {
+        text-align: center !important;
+    }
+
+  }[]
