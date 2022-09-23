@@ -6,3 +6,5 @@ def index(request):
 def log_in(request):
     return render(request,"users/login.html")
 
+def action_signup(request):
+    pass
